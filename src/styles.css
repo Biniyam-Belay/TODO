@@ -1,4 +1,125 @@
-/* styles.css */
 body {
-  background-color: rebeccapurple;
+  margin: 20px;
+  color: white;
+}
+
+p{
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+
+h3 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+.container {
+  display: grid;
+  grid-template-columns:20% 80%;
+  gap: 5px;
+  justify-content: center;
+  /* align-content: center; */
+}
+.leftSide {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(61, 59, 59);
+  height: 100vh;
+  border-radius: 10px;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.rightSide {
+  display: flex;
+  background-color: rgb(36, 40, 41);
+  height: 100vh;
+  border-radius: 10px;
+  justify-content: center;
+}
+
+.user {
+  display: flex;
+  margin: 10px;
+  margin-top: 30px;
+  /* background-color: aqua; */
+  width: 100%;
+  height: 70px;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-photo {
+  display: grid;
+  justify-content: center;
+  width: fit-content;
+  align-items: center;
+  margin-left: 10px;
+  border-radius: 50%; 
+
+}
+
+.userProfile{
+  width: 70%;
+}
+
+.user-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  width: fit-content;
+  height: 50px;
+  margin: 10px;
+
+}
+
+.projects-bar {
+  margin: 1px;
+  border: 1px rgb(255, 255, 255) solid;
+  display: grid;
+  grid-template-columns:70% 30%;
+  justify-content: center;
+  align-items: center;
+  /* background-color: brown; */
+  width: 100%;
+  height: fit-content;
+}
+
+.project-title {
+  /* background-color: blueviolet; */
+  margin: 10px;
+  padding-left: 10px;
+}
+
+.add-project {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  /* background-color: rgb(255, 255, 255); */
+  margin: 10px 10px 10px;
+  padding: 3px;
+}
+
+.projects-detail {
+  display: grid;
+  grid-template-columns:70% 30%;
+  justify-content: center;
+  align-items: center;
+  /* background-color: brown; */
+  width: 100%;
+  height: fit-content;
+  margin-top: -5px;
+}
+
+.project-name {
+  background-color: rgb(58, 120, 98);
+  margin: 10px;
+  padding: 3px;
+}
+
+.due-date {
+  background-color: rgb(43, 161, 204);
+  margin: 10px 10px 10px;
+  padding: 3px;
 }

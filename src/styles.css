@@ -14,14 +14,13 @@ p{
   margin: 0px;
 }
 
-h3 {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 600;
+h2 {
+  margin: 0px;
 }
+
 .container {
   display: grid;
   grid-template-columns:1fr 15fr;
-  gap: 5px;
   width: auto;
   justify-content: center;
   align-content: center;
@@ -67,7 +66,14 @@ h3 {
 }
 
 .user {
+  display: grid;
+  justify-content: center;
+  align-items: center;
   margin-bottom: -20px;
+}
+
+.userPic {
+  width: 40px;
 }
 
 .left-Tab p {
@@ -82,4 +88,63 @@ font-size: 70%;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
+}
+
+.topHero {
+  width: 100%;
+  height: 250px;
+  margin: 10px;
+  border-radius: 30px;
+  background: rgba(101, 123, 98, 0.1);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);;
+}
+
+.heroUpper {
+  position: relative;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 150px;
+  justify-content: center;
+  background: rgba(150, 255, 137, 0.1);
+  border-radius: 30px 30px 0px 0px;
+}
+
+.heroBottom {
+  width: 100%;
+  height: 100px;
+
+  justify-content: center;
+  background: rgba(101, 123, 98, 0.1);
+  border-radius: 0px 0px 30px 30px;
+}
+
+.projectDirectory {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  left: 50px;
+  bottom: 20px;
+}
+
+.userInfo {
+  position: absolute;
+  right: 50px; 
+  bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 20px;
+  width: 300px;
+  height: fit-content;
+  /* background-color: rgb(209, 177, 177); */
+}
+
+#dirProject, h2 {
+  font-size: 30pt;
 }

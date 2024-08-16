@@ -8,6 +8,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<head>
+  <!-- Include Font Awesome from CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
 
   </head>
   <body>
@@ -41,8 +46,6 @@
         </div>
       </div>
       
-
-
       <div class="rightSide">
         <div class="topHero">
           <div class="heroUpper">
@@ -51,11 +54,11 @@
                 <p>Hello/quick projects</p>
               </div>
               <div class="dirProject">
-                <h2 id="dirProject">Hello/quick projects</h2>
+                <h2 id="dirProject">quick projects</h2>
               </div>
             </div>
             <div class="userInfo">
-              <p>Hello/quick projects</p>
+              <p><span>Client :</span> Biniyam Belay</p>
             </div>
           </div>
 
@@ -85,14 +88,31 @@
               </div>
             </div>
 
-            <div class="members">
+            <div class="dates">
               <p id="todayDate">Today</p>
               <div class="tagsList">
                 <div class="dateAndTime"><p>03:04 PM | Fri, Aug 16</p></div>
               </div>
-            </div>
+            </div>  
           </div>
         </div>
+
+        <div class="taskBar">
+          <div class="taskbarLeft">
+            <p># Tasks</p>
+            <button id="addTask">Add New
+              <i class="fa-solid fa-plus"></i>
+            </button>
+          </div>
+
+          <div class="search-bar">
+            <input type="text" placeholder="Search Tasks/Projects">
+            <button type="submit" class="search-button">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </div>
+        </div>
+
       </div>
 
     </div>
